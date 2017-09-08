@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="http://portaldoamazonas.com/wp-content/uploads/2016/04/brasil-capa-e1460639102455-256x256.png">
     <meta charset="UTF-8">
     <title>Tips</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/config-page.css">
 </head>
 <body>
-    <nav>
-        <ul class="menu clearfix">
-            <li><a href="lyrics.html">Lyrics</a></li>
-            <li><a href="tabs.html">Tabs</a></li>
-             <li><a href="#">Help</a>
-                <ul class="sub-menu">
-                    <li><a href="tips.html" class="disable">Tips</a></li>
-                    <li><a href="symbols.html">Symbols</a></li>
-                    <li><a href="learn.html">Learning English</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-    <div class="_body">
-        <div class="background-top">
-            <h1>Tips</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/alteration-layout.js"></script>
+    
+    <div class="page-screen">
+        <nav>
+            <ul>
+                <li><a href="lyrics.html">Lyrics</a></li>
+                <li><a href="tabs.html">Tabs</a></li>
+                 <li><a href="#">Help</a>
+                    <ul>
+                        <li><a href="tips.html" class="disable">Tips</a></li>
+                        <li><a href="learning-with-image.html">Learning With Images</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">English</a>
+                    <ul>
+                        <li><a href="pages/learn.html">Learn</a></li>
+                        <li><a href="pages/body-human.html">Body Parts</a></li>
+                        <li><a href="pages/irregular-verbs.html">Irregular Verbs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Entertainment</a>
+                    <ul">
+                        <li><a href="pages/movies.html">Movies</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="left-screen unhide">
+            
         </div>
-        <div>
-            <div>
-                <table class="table-left">
+        <div class="hide-unhide position-unhide">
+            <a onclick="alter()"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-right-128.png" alt="right-arrow"></a>
+        </div>
+        <div class="body-content normal center">
+            <h1>Tips</h1>
+            <div class="table-screen table-center">
+                <table class="table-center">
                     <thead>
                         <th>Type of Tip</th>
                         <th>URL</th>
@@ -37,6 +56,22 @@
                             <td><a href="http://dictionary.cambridge.org/us/" target="_blank">Access</a></td>
                         </tr>
                         <tr>
+                            <td>Dictionary - Stressed Syllable</td>
+                            <td><a href="https://www.howmanysyllables.com/words/" target="_blank">Access</a></td>
+                        </tr>
+                        <tr>
+                            <td>Antonyms Dictionary</td>
+                            <td><a href="http://www.thesaurus.com/browse/antonym" target="_blank">Access</a></td>
+                        </tr>
+                        <tr>
+                            <td>Silent Letters</td>
+                            <td><a href="https://howtospell.co.uk/silentletters.php" target="_blank">Access</a></td>
+                        </tr>
+                        <tr>
+                            <td>Examples Sentences</td>
+                            <td><a href="http://www.manythings.org/sentences/words/go/1.html" target="_blank">Access</a></td>
+                        </tr>
+                        <tr>
                             <td>The New York Times</td>
                             <td><a href="https://www.nytimes.com/" target="_blank">Access</a></td>
                         </tr>
@@ -45,16 +80,8 @@
                             <td><a href="https://translate.google.com.br/?hl=pt-BR" target="_blank">Access</a></td>
                         </tr>
                         <tr>
-                            <td>Sala à Prova de Som</td>
-                            <td><a href="http://pt.wikihow.com/Construir-uma-Sala-à-Prova-de-Som" target="_blank">Como Construir</a></td>
-                        </tr>
-                        <tr>
-                            <td>Drywall What's</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Drywall" target="_blank">Access</a></td>
-                        </tr>
-                        <tr>
-                            <td>Learning touch Eletric Guitar</td>
-                            <td><a href="http://www.maisquemusica.com.br/conteudo_mqm/G01Guitarrames1.pdf" target="_blank">Access</a></td>
+                            <td>Diminutive Word Formation</td>
+                            <td><a href="http://dictionary.cambridge.org/grammar/british-grammar/word-formation/diminutives-let-y-and-mini" target="_blank">Access</a></td>
                         </tr>
                          <tr>
                             <td>Auxiliary Verbs</td>
@@ -69,20 +96,16 @@
                             <td><a href="http://www.comoescreve.com/2012/12/palavras-homonimas-e-paronimas.html" target="_blank">Access</a></td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td><a href="#" class="disable" target="_blank">Access</a></td>
+                            <td>Drywall What's</td>
+                            <td><a href="https://en.wikipedia.org/wiki/Drywall" target="_blank">Access</a></td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td><a href="#" class="disable" target="_blank">Access</a></td>
+                            <td>Sala à Prova de Som</td>
+                            <td><a href="http://pt.wikihow.com/Construir-uma-Sala-à-Prova-de-Som" target="_blank">How Build</a></td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td><a href="#" class="disable" target="_blank">Access</a></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td><a href="#" class="disable" target="_blank">Access</a></td>
+                            <td>Learning touch Eletric Guitar</td>
+                            <td><a href="http://www.maisquemusica.com.br/conteudo_mqm/G01Guitarrames1.pdf" target="_blank">Access</a></td>
                         </tr>
                         <tr>
                             <td></td>
@@ -111,13 +134,13 @@
                     </tbody>
                 </table>
             </div>
-            <div class="table-right">
+            <div class="image-reffer">
                 <img src="http://www.bestplaces.net/images/map_usa_layers.gif" alt="United States of America">    
             </div>
-            <button onclick="draw()">Press</button>
-            <canvas id="myCanvas" width="500" height="400"></canvas>
+            <div class="image-reffer">
+                <img src="https://image.shutterstock.com/z/stock-vector-four-seasons-names-with-elements-48321145.jpg" alt="four season">
+            </div>
         </div>
     </div>
-    <script type="text/javascript" src="js/cities.js"></script>
 </body>
-</html>
+</html> 

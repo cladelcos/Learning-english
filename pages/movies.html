@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movies</title>
+	<link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/config-page.css">
+</head>
+<body>
+    <script src="../js/alteration-layout.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script>
+    <script src="../angular/model/app.js"></script>
+    <script src="../angular/controller/english-controller.js"></script>
+
+    <div class="page-screen" ng-app="english">
+    	<nav>
+            <ul>
+                <li><a href="../lyrics.html">Lyrics</a></li>
+                <li><a href="../tabs.html">Tabs</a></li>
+                 <li><a href="#">Help</a>
+                    <ul>
+                        <li><a href="../tips.html">Tips</a></li>
+                        <li><a href="../learning-with-image.html">Learning With Images</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">English</a>
+                    <ul>
+                        <li><a href="learn.html">Learn</a></li>
+                        <li><a href="body-human.html">Body Parts</a></li>
+                        <li><a href="irregular-verbs.html">Irregular Verbs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="disable">Entertainment</a>
+                	<ul>
+    	                <li><a href="movies.html" class="disable">Movies</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="left-screen unhide">
+            <form>
+                <h4>Genre</h4>
+                <ul>
+                	<li><input type="radio" ng-model="genreMovieRad" value=""> All</li>
+                    <li><input type="radio" ng-model="genreMovieRad" value="comedy"> Comedy</li>
+                    <li><input type="radio" ng-model="genreMovieRad" value="horror"> Horror</li>
+                    <li><input type="radio" ng-model="genreMovieRad" value="action"> Action</li>
+                    <li><input type="radio" ng-model="genreMovieRad" value="fiction"> Fiction</li>
+                </ul>
+            </form>
+        </div>
+        <div class="hide-unhide position-unhide">
+            <a onclick="alter()"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-right-128.png" alt="right-arrow"></a>
+        </div>
+        <div class="body-content normal center">    
+            <h1>Movies</h1>
+            <div ng-controller="generalCtrl">
+                <div ng-repeat="x in movie | filter: genreMovieRad" >
+                    <div class="content-field" name="{{x.genreMovie}}">
+                        <a href="{{x.url}}" target="_blank" class="{{x.onOffLink}}">
+	                        <img src="{{x.coverMovie}}" alt="{{x.titleMovie}} {{x.subTitleMovie}}">
+	                        <h6 class="{{x.onOffLink}}">
+	                        	<div ng-if="x.subTitleMovie != 0">
+	                        		<div class="feat">{{x.titleMovie}}</div>
+	                        		<div>{{x.subTitleMovie}}</div>
+	                        		<div class="complete-content"></div>
+                        		</div>
+	                        	<div ng-if="x.subTitleMovie == 0">
+	                        		<div class="feat">{{x.titleMovie}}</div>
+	                        		<div class="complete-content"><br></div>
+                        		</div>
+	                        </h6>
+                    	</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

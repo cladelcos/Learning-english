@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="http://portaldoamazonas.com/wp-content/uploads/2016/04/brasil-capa-e1460639102455-256x256.png">
+    <meta charset="UTF-8">
+    <title>Learning English</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/config-page.css">
+    <link rel="stylesheet" href="../css/animation.css">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script>
+    <script src="../angular/model/app.js"></script>
+    <script src="../angular/controller/english-controller.js"></script>
+    <script src="../js/alteration-layout.js"></script>
+
+    <div class="page-screen" ng-app="english">
+        <nav>
+            <ul>
+                <li><a href="../lyrics.html">Lyrics</a></li>
+                <li><a href="../tabs.html">Tabs</a></li>
+                 <li><a href="#">Help</a>
+                    <ul>
+                        <li><a href="../tips.html">Tips</a></li>
+                        <li><a href="../learning-with-image.html">Learning With Images</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">English</a>
+                    <ul>
+                        <li><a href="#" class="disable">Learn</a></li>
+                        <li><a href="body-human.html">Body Parts</a></li>
+                        <li><a href="irregular-verbs.html">Irregular Verbs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Entertainment</a>
+                    <ul>
+                        <li><a href="movies.html">Movies</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="left-screen unhide">
+            <form>
+                <h4>filters</h4>
+                <ul>
+                    <li><input type="radio" ng-model="learnRad" value="symbol"> Symbols</li>
+                    <li><input type="radio" ng-model="learnRad" value="learn"> Learn</li>
+                    <li><input type="radio" ng-model="learnRad" value="game"> Games</li>
+                    <li><input type="radio" ng-model="learnRad" value="dictionary"> Dictionaries</li>
+                </ul>
+            </form>
+        </div>
+        <div class="hide-unhide position-unhide">
+            <a onclick="alter()"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-right-128.png" alt="right-arrow"></a>
+        </div>
+        <div class="body-content normal center">
+            <h1>Learning English</h1>
+            <div ng-controller="generalCtrl">
+                <div ng-repeat="x in learn | filter: {category:learnRad}" >
+                    <div class="content-field zoom-in">
+                        <a href="{{x.url}}" target="_blank">
+                            <img src="{{x.imgLearn}}" alt="{{x.nameOne}} {{x.nameTwo}} {{x.nameThree}}">
+                              <h3>{{x.nameOne}} 
+                                <div ng-if="x.nameTwo != 0 && x.nameThree != 0" class="feat">
+                                    <div class="nextLine">{{x.nameTwo}}</div>
+                                    <div class="nextLine">{{x.nameThree}}</div>
+                                    </div> 
+                                <div ng-if="x.nameTwo != 0 && x.nameThree == 0">
+                                    <div class="nextLine">{{x.nameTwo}}</div>
+                                    <div class="complete-content"></div>
+                                </div>
+                                <div ng-if="x.nameTwo == 0 && x.nameThree == 0">
+                                    <div class="complete-content"></div>
+                                    <div class="complete-content"></div>
+                                </div>
+                             </h3>
+                         </a>
+                    </div>
+                </div>
+            </div>
+            <div class="table-screen table-center">
+                <div class="">
+                    <h1>Discipline North American</h1>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th rowspan="4" class="table-line"></th>
+                                <th rowspan="4">Discipline</th>
+                                <th rowspan="2">Preschool</th>
+                                <th rowspan="2" colspan="5">Elementary School</th>
+                                <th rowspan="2" class="table-line"></th>
+                                <th colspan="3">Middle School</th>
+                                <th colspan="4">High School</th>
+                            </tr>
+                            <tr>
+                                <th class="table-line"></th>
+                                <th colspan="2">Junior High School</th>
+                                <th class="table-line"></th>
+                                <th colspan="3">Senior High School</th>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">Pre-Kindergarten</th>
+                                <th rowspan="2">Kinderganten</th>
+                                <th rowspan="2">1st grade</th>
+                                <th rowspan="2">2nd grade</th>
+                                <th rowspan="2">3rd grade</th>
+                                <th rowspan="2">4th grade</th>
+                                <th rowspan="2">5th grade</th>
+                                <th rowspan="2">6th grade</th>
+                                <th rowspan="2">7th grade</th>
+                                <th rowspan="2">8th grade</th>
+                                <th>Freshman</th>
+                                <th>Sophomore</th>
+                                <th>Junior</th>
+                                <th>Senior</th>
+                            </tr>
+                            <tr>
+                                <th>9th grade</th>
+                                <th>10th grade</th>
+                                <th>11th grade</th>
+                                <th>12th grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="3">URLs</td>
+                                <td>Biology</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td><a href="#" class="disable">Access</a></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                
+                                <td>Physic</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td><a href="#" class="disable">Access</a></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Mathematic</td>
+                                <td></td>
+                                <td></td>
+                                <td><a href="http://www.math4childrenplus.com/grades/1st-grade/worksheets/" target="_blank">Access</a></td>
+                                <td><a href="http://www.math4childrenplus.com/2nd-grade-worksheets/" target="_blank">Access</a></td>
+                                <td><a href="http://www.math4childrenplus.com/grades/3rd-grade/worksheets/" target="_blank">Access</a></td>
+                                <td><a href="http://www.math4childrenplus.com/grades/4th-grade/worksheets/" target="_blank">Access</a></td>
+                                <td><a href="" target="_blank">Access</a></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td colspan="16"><a href="https://en.wikipedia.org/wiki/Education_in_the_United_States">Explication in Wikipedia</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </iframe>
+            </div>
+            <div class="table-screen table-center">
+                <table class="table-center">
+                    <thead>
+                        <th>Learn of the Day</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Simple Present, Simple Past, Simple Future</td>
+                        </tr>
+                        <tr>
+                            <td>Home and Things which a home owns</td>
+                        </tr>
+                        <tr>
+                            <td>Expressions</td>
+                        </tr>
+                        <tr>
+                            <td>Mouth, Year, Day of Week</td>
+                        </tr>
+                        <tr>
+                            <td>Speak, Talk, Say, Tell</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>          
+        </div>
+    </div>
+</body>
+</html>

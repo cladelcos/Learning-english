@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test of Area</title>
+	<link rel="stylesheet" href="../css/css-javascript.css">
+    <link rel="stylesheet" href="../css/config-page.css">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script>
+	<script src="../js/angular/model/app.js"></script>
+	<script src="../js/angular/controller/data-angular-sql.js"></script>
+	<script src="../js/angular/controller/names.js"></script>
+    <script src="js/alteration-layout.js"></script>
+	
+	<nav>
+		<!-- Menu -->
+	</nav>
+	<div class="_body-tests" ng-app="matrix" >
+		<h3>Angular Tests</h3>
+        <div class="angular-edit-js" ng-controller="programNameMatrix">
+            <h1>Shapes - (field modified by Angular)</h1>
+            <input type="text" ng-model="matrixInName">
+            
+            <b><p id="userShow" ng-show="matrixInName">{{firstName + " " + lastName}}</p></b>
+            <b><p id="userShow">{{matrixInName}}</p></b>
+            <br>
+            <b><p id="userShow"></p></b>
+        </div>
+        <br>
+        <div class="angular-edit-js" ng-controller="myCtrl">
+        	<table>
+        		<thead>
+        			<th>Name</th>
+        			<th>Country</th>
+        		</thead>
+        		<tbody>
+        			<tr ng-repeat="x in names">
+        				<td>{{x.Names}}</td>
+        				<td>{{x.Country}}</td>
+        			</tr>
+        			<tr ng-controller="programNameMatrix">
+        				<td>{{firstName}}</td>
+        				<td>{{lastName}}</td>
+        			</tr>
+        		</tbody>
+        	</table>
+        	<h1>{{myWelcome}}</h1>
+        </div>
+
+	</div>
+
+</body>
+</html>
