@@ -29,10 +29,6 @@
 .content-field h6 {
 	font-size: 20px;
 }
-.content-field img {
-	width: 250px;
-	height: 250px;
-}
 .disabled {
 	pointer-events: none;
 	opacity: 0.5;
@@ -242,4 +238,126 @@ td {
 .with-image a img {
 	height: 200px;
 	width: auto;
+}
+
+
+/* keyframes for rotating animation */
+@-webkit-keyframes spin {
+  from { transform: rotateY(0); }
+  to   { transform: rotateY(360deg); }
+}
+
+/* scene wrapper */
+.wrapper{
+  height: 250px;
+  margin-top:0px;
+  position:relative;
+  perspective: 800;
+  perspective-origin: 50% 100px;
+}
+
+/* cube wrapper */
+.cube{
+  position: relative;
+  margin: 0 auto;
+  width: 200px;
+  transform-style: preserve-3d;
+  animation: spin 4s infinite linear;
+  transition: all 1s linear;
+}
+/* inner cube */
+i{
+  position:absolute;
+  top:60px;
+  /*left:50px;*/
+  /*width:100px;
+  height:100px;*/
+  display:block;
+  
+  transition: all 1s linear;
+}
+i.front{
+  transform: translateZ(10px);
+  left:50px;
+  width:100px;
+  height:100px;
+  /*background:url(http://i45.tinypic.com/muxvt1.png);*/
+}
+i.back{
+  transform: translateZ(0px) rotateY(180deg);
+  left:50px;
+  width:100px;
+  height:100px;
+  /*background:url(http://i45.tinypic.com/muxvt1.png);*/
+}
+i.bottom{
+  transform:rotateX(-90deg) translateY(0px);
+  transform-origin: left bottom;
+  left:50px;
+  width:100px;
+  height:10px;
+/*  background:url(http://i45.tinypic.com/muxvt1.png);*/
+}
+i.left{
+  transform:rotateY(270deg) translateX(0px);
+  transform-origin: center left;
+  left:50px;
+  width:10px;
+  height:100px;
+/*  background:url(https://images3.pixlis.com/background-image-horizontal-lines-and-stripes-seamless-tileable-black-white-22hk79.png);*/
+}
+i.right{
+  transform:rotateY(-270deg) translateX(0px);
+  transform-origin: top right;
+  left:190px;
+  width:10px;
+  height:100px;
+/*  background:url(https://images3.pixlis.com/background-image-horizontal-lines-and-stripes-seamless-tileable-black-white-22hk79.png);
+  background-size: 15px;*/
+}
+i.top{
+  transform:rotateX(-270deg) translateY(0px);
+  transform-origin: left top;
+  left:50px;
+  width:100px;
+  height:10px;
+/*  background:url(http://i45.tinypic.com/muxvt1.png);*/
+}
+
+/* Size of cover CD */
+i.left img, i.right img,
+i.left, i.right {
+	width: 10px;
+	height: 150px;
+}
+i.top img, i.bottom img,
+i.top, i.bottom {
+	width: 150px;
+	height: 10px;
+}
+i.front img, i.back img,
+i.front, i.back {
+	width: 150px;
+	height: 150px;
+}
+i.left img, i.left,
+i.top, i.bottom,
+i.right {
+	background: url(../data/image/cover/horizontal-lines.png);
+	background-size: 10px;
+}
+i.front, i.back {
+	background: url(../data/image/cover/na.png);
+	background-size: 100px;
+}
+/* hover transformations */
+.cube:hover{
+  top: 0px;
+}
+.cube:hover {
+  transform: translateZ(100px) rotateX(-210deg);
+  transform-origin: top center;
+}
+.cube:hover i{
+  top:50px;
 }

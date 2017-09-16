@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="http://portaldoamazonas.com/wp-content/uploads/2016/04/brasil-capa-e1460639102455-256x256.png">
+    <!-- <link rel="icon" href="http://portaldoamazonas.com/wp-content/uploads/2016/04/brasil-capa-e1460639102455-256x256.png"> -->
     <meta charset="UTF-8">
     <title>Lyrics</title>
     <link rel="stylesheet" href="css/reset.css">
@@ -10,7 +10,7 @@
 </head>
 <body>
     <script src="js/alteration-layout.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script>
     <script src="angular/model/app.js"></script>
@@ -63,7 +63,26 @@
                     <div class="content-field zoom-in" name="{{x.genreMusicalBand}}">
                         <a href="{{x.url}}" target="_blank">
                             <h6>
-                                <img src="{{x.coverSong}}" alt="{{x.songName}} - {{x.band}} {{x.featuringBand}}">
+                                <div class="wrapper">
+                                    <div class="cube zoom-in">
+                                        <i class="front">
+                                            <img src="{{x.coverFrontSong}}" alt="{{x.songName}} - {{x.band}} {{x.featuringBand}}">
+                                        </i>
+                                        <i class="back">
+                                            <img src="{{x.coverBackSong}}" alt="{{x.songName}} - {{x.band}} {{x.featuringBand}}">
+                                        </i>
+                                        <i class="top">
+                                        </i>
+                                        <i class="bottom">
+                                        </i>
+                                        <i class="left">
+                                           <img src="{{x.coverSideSong}}" alt="{{x.songName}} - {{x.band}} {{x.featuringBand}}">
+                                        </i>
+                                        <i class="right">
+                                            <img src="{{x.coverSideSong}}" alt="{{x.songName}} - {{x.band}} {{x.featuringBand}}">
+                                        </i>
+                                    </div>
+                                </div>
                                 <div ng-if="x.featuringBand != 0">
                                     {{x.band}} 
                                     <div class="feat">
