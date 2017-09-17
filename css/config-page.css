@@ -28,6 +28,13 @@
 .content-field h6 {
 	font-size: 20px;
 }
+.cover-dvd {
+	height: 350px;
+}
+.cover-dvd img {
+	height: 300px;
+	width: auto;
+}
 .disabled {
 	pointer-events: none;
 	opacity: 0.5;

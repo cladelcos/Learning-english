@@ -4,6 +4,7 @@
 	<title>Movies</title>
 	<link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/config-page.css">
+    <link rel="stylesheet" href="../css/animation.css">
 </head>
 <body>
     <script src="../js/alteration-layout.js"></script>
@@ -57,7 +58,7 @@
             <h1>Movies</h1>
             <div ng-controller="generalCtrl">
                 <div ng-repeat="x in movie | filter: genreMovieRad" >
-                    <div class="content-field" name="{{x.genreMovie}}">
+                    <div class="content-field cover-dvd zoom-in" name="{{x.genreMovie}}">
                         <a href="{{x.url}}" target="_blank" class="{{x.onOffLink}}">
 	                        <img src="{{x.coverMovie}}" alt="{{x.titleMovie}} {{x.subTitleMovie}}">
 	                        <h6 class="{{x.onOffLink}}">
