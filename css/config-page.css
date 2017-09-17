@@ -33,7 +33,7 @@
 }
 .cover-dvd img {
 	height: 300px;
-	width: auto;
+	width: auto; 
 }
 .disabled {
 	pointer-events: none;
