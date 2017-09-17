@@ -1,5 +1,4 @@
 .body-content {
-	/*background-color: #fff;*/
 	background: url("http://www.shauno.ca/gallery/modern/squares-blue-black-03.jpg");
 	margin-top: 40px;
 	padding: 25px 10px;
@@ -269,9 +268,6 @@ td {
 i{
   position:absolute;
   top:60px;
-  /*left:50px;*/
-  /*width:100px;
-  height:100px;*/
   display:block;
   
   transition: all 1s linear;
@@ -281,14 +277,12 @@ i.front{
   left:50px;
   width:100px;
   height:100px;
-  /*background:url(http://i45.tinypic.com/muxvt1.png);*/
 }
 i.back{
   transform: translateZ(0px) rotateY(180deg);
   left:50px;
   width:100px;
   height:100px;
-  /*background:url(http://i45.tinypic.com/muxvt1.png);*/
 }
 i.bottom{
   transform:rotateX(-90deg) translateY(0px);
@@ -296,7 +290,6 @@ i.bottom{
   left:50px;
   width:100px;
   height:10px;
-/*  background:url(http://i45.tinypic.com/muxvt1.png);*/
 }
 i.left{
   transform:rotateY(270deg) translateX(0px);
@@ -304,7 +297,6 @@ i.left{
   left:50px;
   width:10px;
   height:100px;
-/*  background:url(https://images3.pixlis.com/background-image-horizontal-lines-and-stripes-seamless-tileable-black-white-22hk79.png);*/
 }
 i.right{
   transform:rotateY(-270deg) translateX(0px);
@@ -312,8 +304,6 @@ i.right{
   left:190px;
   width:10px;
   height:100px;
-/*  background:url(https://images3.pixlis.com/background-image-horizontal-lines-and-stripes-seamless-tileable-black-white-22hk79.png);
-  background-size: 15px;*/
 }
 i.top{
   transform:rotateX(-270deg) translateY(0px);
@@ -321,7 +311,6 @@ i.top{
   left:50px;
   width:100px;
   height:10px;
-/*  background:url(http://i45.tinypic.com/muxvt1.png);*/
 }
 
 /* Size of cover CD */
