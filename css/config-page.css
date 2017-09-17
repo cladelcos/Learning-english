@@ -73,6 +73,10 @@
 	height: 400px;
 	background: #19325c; 
 }
+.learn-image-layout  img{
+	width: 250px;
+	height: 250px;
+}
 .left-screen {
 	position: fixed;
 	background-color: #fff;
