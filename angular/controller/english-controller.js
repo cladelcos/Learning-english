@@ -16,7 +16,9 @@ english.controller("generalCtrl", function ($scope) {
 	$scope.learnWithImg = [{image: "http://indiehaven.com/wp-content/uploads/2014/04/shrugging-guy.jpg.jpg?w=640", name: "Shrugged"},
 						   {image: "https://carliemacullen.files.wordpress.com/2012/02/frown.jpg", name: "frowning"}];
 	$scope.tab = [];
-	$scope.tip = []
+	$scope.tip = [];
+	$scope.hq = [{url: "https://lasqueihqonline.com/2017/03/03/the-walking-dead/", title: "The Walking Dead", subTitle: "Complete Collection", cover: "../data/image/cover-hq/the-walking-dead-hq.jpg", genre: "survivor horror", onOffLink: ""}];
+
 	$scope.bodyHuman = [];
 	$scope.learn = [{url: "https://www.gamestolearnenglish.com/", nameOne: "Games", nameTwo:"", nameThree: "", imgLearn: "http://www.freeradicalscience.com/file/2017/06/how_to_enjoy_your_free_pc_games_more.png", category: "game"},
 					{url: "http://www.gingersoftware.com/content/grammar-rules/verbs/list-of-irregular-verbs/", nameOne: "Irregular Verbs", nameTwo: "", nameThree: "", imgLearn: "http://www.narayanpurpolice.in/wp-content/uploads/2017/05/noImage.png", category: "learn"},

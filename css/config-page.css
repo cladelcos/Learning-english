@@ -1,6 +1,6 @@
 .body-content {
 	background: url("http://www.shauno.ca/gallery/modern/squares-blue-black-03.jpg");
-	margin-top: 40px;
+	margin: 40px 0px 0px 0px; 
 	padding: 25px 10px;
 }
 .body-content, .hide-unhide, 

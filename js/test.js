@@ -7,12 +7,7 @@ shapesStyle.background = "Black";
 shapesStyle.color = "Green";
 shapesStyle.textAlign = "Center";
 
-function Alter () {
-	// shapesDoc.createElement("h2") = userData.value;
 
-	doc.getElementById("userShow").innerText = userData.value;
-	// console.log(userData.value);
-}
 
 
 // Angular Edit
