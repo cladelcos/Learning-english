@@ -1,45 +1,179 @@
 english.controller("generalCtrl", function ($scope) {
-	$scope.lyric = [{band: "Linkin Park", featuringBand: "feat. Busta Rhymes", songName: "We Made It", url: "https://genius.com/Busta-rhymes-we-made-it-lyrics", coverFrontSong: "./data/image/cover-front/busta-rhymes-ft-linkin-park-we-made-it.png", coverSideSong: "./data/image/cover-side/linkin-park-ft-busta-rhymes-we-made-it.png", coverBackSong: "./data/image/cover-back/linkin-park-ft-busta-rhymes-we-made-it.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Blackbirds", url: "https://www.azlyrics.com/lyrics/linkinpark/blackbirds.html", coverFrontSong: "./data/image/cover-front/linkin-park-blackbirds-single.png", coverSideSong: "./data/image/cover-side/linkin-park-hybrid-theory.png", coverBackSong: "./data/image/cover-back/linkin-park-blackbirds-single.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "High Voltage", url: "https://www.azlyrics.com/lyrics/linkinpark/highvoltage.html", coverFrontSong: "./data/image/cover-front/linkin-park-hybrid-theory-ep.png", coverSideSong: "./data/image/cover-side/linkin-park-hybrid-theory-ep.png", coverBackSong: "./data/image/cover-back/linkin-park-hybrid-theory-ep.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Carousel", url: "https://www.azlyrics.com/lyrics/linkinpark/carousel.html", coverFrontSong: "./data/image/cover-front/linkin-park-hybrid-theory-ep.png", coverSideSong: "./data/image/cover-side/linkin-park-hybrid-theory-ep.png", coverBackSong: "./data/image/cover-back/linkin-park-hybrid-theory-ep.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Papercut", url: "https://www.azlyrics.com/lyrics/linkinpark/papercut.html", coverFrontSong: "./data/image/cover-front/linkin-park-hybrid-theory.png", coverSideSong: "./data/image/cover-side/linkin-park-hybrid-theory.png", coverBackSong: "./data/image/cover-back/linkin-park-hybrid-theory.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "One Step Closer", url: "https://www.azlyrics.com/lyrics/linkinpark/onestepcloser.html", coverFrontSong: "./data/image/cover-front/linkin-park-hybrid-theory.png", coverSideSong: "./data/image/cover-side/linkin-park-hybrid-theory.png", coverBackSong: "./data/image/cover-back/linkin-park-hybrid-theory.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "With You", url: "https://www.azlyrics.com/lyrics/linkinpark/withyou.html", coverFrontSong: "./data/image/cover-front/linkin-park-hybrid-theory.png", coverSideSong: "./data/image/cover-side/linkin-park-hybrid-theory.png", coverBackSong: "./data/image/cover-back/linkin-park-hybrid-theory.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Points Of Authority", url: "https://www.azlyrics.com/lyrics/linkinpark/pointsofauthority.html", coverFrontSong: "./data/image/cover-front/linkin-park-hybrid-theory.png", coverSideSong: "./data/image/cover-side/linkin-park-hybrid-theory.png", coverBackSong: "./data/image/cover-back/linkin-park-hybrid-theory.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Crawling", url: "https://www.azlyrics.com/lyrics/linkinpark/crawling.html", coverFrontSong: "./data/image/cover-front/linkin-park-hybrid-theory.png", coverSideSong: "./data/image/cover-side/linkin-park-hybrid-theory.png", coverBackSong: "./data/image/cover-back/linkin-park-hybrid-theory.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Runaway", url: "https://www.azlyrics.com/lyrics/linkinpark/runaway.html", coverFrontSong: "./data/image/cover-front/linkin-park-hybrid-theory.png", coverSideSong: "./data/image/cover-side/linkin-park-hybrid-theory.png", coverBackSong: "./data/image/cover-back/linkin-park-hybrid-theory.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "By Myself", url: "https://www.azlyrics.com/lyrics/linkinpark/bymyself.html", coverFrontSong: "./data/image/cover-front/linkin-park-hybrid-theory.png", coverSideSong: "./data/image/cover-side/linkin-park-hybrid-theory.png", coverBackSong: "./data/image/cover-back/linkin-park-hybrid-theory.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "In The End", url: "https://www.azlyrics.com/lyrics/linkinpark/intheend.html", coverFrontSong: "./data/image/cover-front/linkin-park-hybrid-theory.png", coverSideSong: "./data/image/cover-side/linkin-park-hybrid-theory.png", coverBackSong: "./data/image/cover-back/linkin-park-hybrid-theory.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "A Place For My Head", url: "https://www.azlyrics.com/lyrics/linkinpark/aplaceformyhead.html", coverFrontSong: "./data/image/cover-front/linkin-park-hybrid-theory.png", coverSideSong: "./data/image/cover-side/linkin-park-hybrid-theory.png", coverBackSong: "./data/image/cover-back/linkin-park-hybrid-theory.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Forgotten", url: "https://www.azlyrics.com/lyrics/linkinpark/forgotten.html", coverFrontSong: "./data/image/cover-front/linkin-park-hybrid-theory.png", coverSideSong: "./data/image/cover-side/linkin-park-hybrid-theory.png", coverBackSong: "./data/image/cover-back/linkin-park-hybrid-theory.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Cure For The Itch", url: "https://www.azlyrics.com/lyrics/linkinpark/curefortheitch.html", coverFrontSong: "./data/image/cover-front/linkin-park-hybrid-theory.png", coverSideSong: "./data/image/cover-side/linkin-park-hybrid-theory.png", coverBackSong: "./data/image/cover-back/linkin-park-hybrid-theory.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Pushing Me Away", url: "https://www.azlyrics.com/lyrics/linkinpark/pushingmeaway.html", coverFrontSong: "./data/image/cover-front/linkin-park-hybrid-theory.png", coverSideSong: "./data/image/cover-side/linkin-park-hybrid-theory.png", coverBackSong: "./data/image/cover-back/linkin-park-hybrid-theory.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Valentine's Day", url: "https://www.azlyrics.com/lyrics/linkinpark/valentinesday.html", coverFrontSong: "./data/image/cover-front/linkin-park-minutes-to-midnight.png", coverSideSong: "./data/image/cover-side/linkin-park-minutes-to-midnight.png", coverBackSong: "./data/image/cover-back/linkin-park-minutes-to-midnight.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Don't Stay", url: "https://www.azlyrics.com/lyrics/linkinpark/dontstay.html", coverFrontSong: "./data/image/cover-front/linkin-park-meteora.png", coverSideSong: "./data/image/cover-side/linkin-park-meteora.png", coverBackSong: "./data/image/cover-back/linkin-park-meteora.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Somewhere I Belong", url: "https://www.azlyrics.com/lyrics/linkinpark/somewhereibelong.html", coverFrontSong: "./data/image/cover-front/linkin-park-meteora.png", coverSideSong: "./data/image/cover-side/linkin-park-meteora.png", coverBackSong: "./data/image/cover-back/linkin-park-meteora.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Lying From You", url: "https://www.azlyrics.com/lyrics/linkinpark/lyingfromyou.html", coverFrontSong: "./data/image/cover-front/linkin-park-meteora.png", coverSideSong: "./data/image/cover-side/linkin-park-meteora.png", coverBackSong: "./data/image/cover-back/linkin-park-meteora.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Hit The Floor", url: "https://www.azlyrics.com/lyrics/linkinpark/hitthefloor.html", coverFrontSong: "./data/image/cover-front/linkin-park-meteora.png", coverSideSong: "./data/image/cover-side/linkin-park-meteora.png", coverBackSong: "./data/image/cover-back/linkin-park-meteora.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Easier To Run", url: "https://www.azlyrics.com/lyrics/linkinpark/easiertorun.html", coverFrontSong: "./data/image/cover-front/linkin-park-meteora.png", coverSideSong: "./data/image/cover-side/linkin-park-meteora.png", coverBackSong: "./data/image/cover-back/linkin-park-meteora.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Faint", url: "https://www.azlyrics.com/lyrics/linkinpark/faint.html", coverFrontSong: "./data/image/cover-front/linkin-park-meteora.png", coverSideSong: "./data/image/cover-side/linkin-park-meteora.png", coverBackSong: "./data/image/cover-back/linkin-park-meteora.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Figure.09", url: "https://www.azlyrics.com/lyrics/linkinpark/figure09.html", coverFrontSong: "./data/image/cover-front/linkin-park-meteora.png", coverSideSong: "./data/image/cover-side/linkin-park-meteora.png", coverBackSong: "./data/image/cover-back/linkin-park-meteora.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Breaking The Habit", url: "https://www.azlyrics.com/lyrics/linkinpark/breakingthehabit.html", coverFrontSong: "./data/image/cover-front/linkin-park-meteora.png", coverSideSong: "./data/image/cover-side/linkin-park-meteora.png", coverBackSong: "./data/image/cover-back/linkin-park-meteora.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "From The Inside", url: "https://www.azlyrics.com/lyrics/linkinpark/fromtheinside.html", coverFrontSong: "./data/image/cover-front/linkin-park-meteora.png", coverSideSong: "./data/image/cover-side/linkin-park-meteora.png", coverBackSong: "./data/image/cover-back/linkin-park-meteora.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Nobody's Listening", url: "https://genius.com/Linkin-park-nobodys-listening-lyrics", coverFrontSong: "./data/image/cover-front/linkin-park-meteora.png", coverSideSong: "./data/image/cover-side/linkin-park-meteora.png", coverBackSong: "./data/image/cover-back/linkin-park-meteora.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Session", url: "http://www.metrolyrics.com/session-lyrics-linkin-park.html", coverFrontSong: "./data/image/cover-front/linkin-park-meteora.png", coverSideSong: "./data/image/cover-side/linkin-park-meteora.png", coverBackSong: "./data/image/cover-back/linkin-park-meteora.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Numb", url: "https://www.azlyrics.com/lyrics/linkinpark/numb.html", coverFrontSong: "./data/image/cover-front/linkin-park-meteora.png", coverSideSong: "./data/image/cover-side/linkin-park-meteora.png", coverBackSong: "./data/image/cover-back/linkin-park-meteora.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Waiting For The End", url: "https://www.azlyrics.com/lyrics/linkinpark/waitingfortheend.html", coverFrontSong: "./data/image/cover-front/linkin-park-a-thousand-suns.png", coverSideSong: "./data/image/cover-side/linkin-park-a-thousand-suns.png", coverBackSong: "./data/image/cover-back/linkin-park-a-thousand-suns.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Blackout", url: "https://www.azlyrics.com/lyrics/linkinpark/blackout.html", coverFrontSong: "./data/image/cover-front/linkin-park-a-thousand-suns.png", coverSideSong: "./data/image/cover-side/linkin-park-a-thousand-suns.png", coverBackSong: "./data/image/cover-back/linkin-park-a-thousand-suns.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Wretches And Kings", url: "https://www.azlyrics.com/lyrics/linkinpark/wretchesandkings.html", coverFrontSong: "./data/image/cover-front/linkin-park-a-thousand-suns.png", coverSideSong: "./data/image/cover-side/linkin-park-a-thousand-suns.png", coverBackSong: "./data/image/cover-back/linkin-park-a-thousand-suns.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Wisdom, Justice And Love", url: "https://www.azlyrics.com/lyrics/linkinpark/wisdomjusticeandlove.html", coverFrontSong: "./data/image/cover-front/linkin-park-a-thousand-suns.png", coverSideSong: "./data/image/cover-side/linkin-park-a-thousand-suns.png", coverBackSong: "./data/image/cover-back/linkin-park-a-thousand-suns.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Iridescent", url: "https://www.azlyrics.com/lyrics/linkinpark/iridescent.html", coverFrontSong: "./data/image/cover-front/linkin-park-a-thousand-suns.png", coverSideSong: "./data/image/cover-side/linkin-park-a-thousand-suns.png", coverBackSong: "./data/image/cover-back/linkin-park-a-thousand-suns.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Fallout", url: "https://www.azlyrics.com/lyrics/linkinpark/fallout.html", coverFrontSong: "./data/image/cover-front/linkin-park-a-thousand-suns.png", coverSideSong: "./data/image/cover-side/linkin-park-a-thousand-suns.png", coverBackSong: "./data/image/cover-back/linkin-park-a-thousand-suns.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Catalyst", url: "https://www.azlyrics.com/lyrics/linkinpark/thecatalyst.html", coverFrontSong: "./data/image/cover-front/linkin-park-a-thousand-suns.png", coverSideSong: "./data/image/cover-side/linkin-park-a-thousand-suns.png", coverBackSong: "./data/image/cover-back/linkin-park-a-thousand-suns.png", genreMusicalBand:"metal"},
-					{band: "Linkin Park", featuringBand: "", songName: "Burn It Down", url: "https://www.azlyrics.com/lyrics/linkinpark/burnitdown.html", coverFrontSong: "./data/image/cover-front/linkin-park-living-things.png", coverSideSong: "./data/image/cover-side/linkin-park-living-things.png", coverBackSong: "./data/image/cover-back/linkin-park-living-things.png", genreMusicalBand:"metal"},
-					{band: "Fort Minor", featuringBand: "", songName: "Believe Me", url: "https://www.azlyrics.com/lyrics/fortminor/believeme.html", coverFrontSong: "./data/image/cover-front/fort-minor-the-rising-tied.png", coverSideSong: "./data/image/cover-side/fort-minor-the-rising-tied.png", coverBackSong: "./data/image/cover-back/fort-minor-the-rising-tied.png", genreMusicalBand:"hipHop"},
-					{band: "Fort Minor", featuringBand: "", songName: "Where'd You Go", url: "https://www.azlyrics.com/lyrics/fortminor/wheredyougo.html", coverFrontSong: "./data/image/cover-front/fort-minor-the-rising-tied.png", coverSideSong: "./data/image/cover-side/fort-minor-the-rising-tied.png", coverBackSong: "./data/image/cover-back/fort-minor-the-rising-tied.png", genreMusicalBand:"hipHop"},
-					{band: "Fort Minor", featuringBand: "", songName: "Discograph Complete", url: "http://www.taringa.net/comunidades/linkinparktaringa/7314323/Fort-Minor-Discografia-MediaFire-320-Kbps.html", coverFrontSong: "./data/image/cover-front/fort-minor-the-rising-tied.png", coverSideSong: "./data/image/cover-side/fort-minor-the-rising-tied.png", coverBackSong: "./data/image/cover-back/fort-minor-the-rising-tied.png", genreMusicalBand:"hipHop"},
-					{band: "Audioslave", featuringBand: "", songName: "Like a Stone", url: "https://www.azlyrics.com/lyrics/audioslave/likeastone.html", coverFrontSong: "./data/image/cover-front/audioslave.png", coverSideSong: "./data/image/cover-side/audioslave.png", coverBackSong: "./data/image/cover-back/audioslave.png", genreMusicalBand:"rock"}];
+	folderCover = function (fold, band, album) {
+		if(fold == "side") {
+			fold = "./data/image/cover-side/";
+			if (band == "lp") {
+				band = "linkin-park-";
+				if(album == "brwmi") {
+					album = "ft-busta-rhymes-we-made-it.png";
+				}
+				if(album == "ht") {
+					album = "hybrid-theory.png";
+				}
+				if(album == "htep") {
+					album = "hybrid-theory-ep.png";
+				}
+				if(album == "mtm") {
+					album = "minutes-to-midnight.png";
+				}
+				if(album == "ats") {
+					album = "a-thousand-suns.png";
+				}
+				if(album == "meteora") {
+					album = "meteora.png";
+				}
+				if(album == "lt") {
+					album = "living-things.png";
+				}
+				if(album == "oml") {
+					album = "one-more-light.png";
+				}
+			}
+			if (band == "audioslave") {
+				band = "audioslave";
+				if(album == "audioslave") {
+					album = ".png";
+				}
+			}
+			if (band == "fm") {
+				band = "fort-minor-";
+				if(album == "trt") {
+					album = "the-rising-tied.png";
+				}
+			}
+			fold += band + album;
+			return fold;
+		}
+		if(fold == "front") {
+			fold = "./data/image/cover-front/";
+			if (band == "lp") {
+				band = "linkin-park-";
+				if(album == "brwmi") {
+					album = "ft-busta-rhymes-we-made-it.png";
+				}
+				if(album == "blackbirds") {
+					album = "blackbirds-single.png";
+				}
+				if(album == "htep") {
+					album = "hybrid-theory-ep.png";
+				}
+				if(album == "mtm") {
+					album = "minutes-to-midnight.png";
+				}
+				if(album == "ats") {
+					album = "a-thousand-suns.png";
+				}
+				if(album == "meteora") {
+					album = "meteora.png";
+				}
+				if(album == "lt") {
+					album = "living-things.png";
+				}
+				if(album == "oml") {
+					album = "one-more-light.png";
+				}
+			}
+			if (band == "audioslave") {
+				band = "audioslave";
+				if(album == "audioslave") {
+					album = ".png";
+				}
+			}
+			if (band == "fm") {
+				band = "fort-minor-";
+				if(album == "trt") {
+					album = "the-rising-tied.png";
+				}
+			}
+			fold += band + album;
+			return fold;
+		}
+		if(fold == "back") {
+			fold = "./data/image/cover-back/";
+			if (band == "lp") {
+				band = "linkin-park-";
+				if(album == "brwmi") {
+					album = "ft-busta-rhymes-we-made-it.png";
+				}
+				if(album == "blackbirds") {
+					album = "blackbirds-single.png";
+				}
+				if(album == "htep") {
+					album = "hybrid-theory-ep.png";
+				}
+				if(album == "mtm") {
+					album = "minutes-to-midnight.png";
+				}
+				if(album == "ats") {
+					album = "a-thousand-suns.png";
+				}
+				if(album == "meteora") {
+					album = "meteora.png";
+				}
+				if(album == "lt") {
+					album = "living-things.png";
+				}
+				if(album == "oml") {
+					album = "one-more-light.png";
+				}
+			}
+			if (band == "audioslave") {
+				band = "audioslave";
+				if(album == "audioslave") {
+					album = ".png";
+				}
+			}
+			if (band == "fm") {
+				band = "fort-minor-";
+				if(album == "trt") {
+					album = "the-rising-tied.png";
+				}
+			}
+			fold += band + album;
+			return fold;
+		}
+	}
+	$scope.lyric = [{band: "Linkin Park", featuringBand: "feat. Busta Rhymes", songName: "We Made It", url: "https://genius.com/Busta-rhymes-we-made-it-lyrics", coverFrontSong: folderCover("front", "lp", "brwmi"), coverSideSong: folderCover("side", "lp", "brwmi"), coverBackSong: folderCover("back", "lp", "brwmi"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Blackbirds", url: "https://www.azlyrics.com/lyrics/linkinpark/blackbirds.html", coverFrontSong: folderCover("front","lp","blackbirds"), coverSideSong: folderCover("side", "lp", "ht"),  coverBackSong:  folderCover("back", "lp", "blackbirds"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "High Voltage", url: "https://www.azlyrics.com/lyrics/linkinpark/highvoltage.html", coverFrontSong: folderCover("front", "lp", "htep"), coverSideSong: folderCover("side", "lp", "htep"),coverBackSong: folderCover("back", "lp", "htep"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Carousel", url: "https://www.azlyrics.com/lyrics/linkinpark/carousel.html", coverFrontSong: folderCover("front", "lp", "htep"), coverSideSong: folderCover("side", "lp", "htep"), coverBackSong:  folderCover("back", "lp", "htep"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Papercut", url: "https://www.azlyrics.com/lyrics/linkinpark/papercut.html", coverFrontSong: folderCover("front", "lp", "htep"), coverSideSong: folderCover("side", "lp", "htep"), coverBackSong:  folderCover("back", "lp", "htep"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "One Step Closer", url: "https://www.azlyrics.com/lyrics/linkinpark/onestepcloser.html", coverFrontSong: folderCover("front", "lp", "htep"), coverSideSong: folderCover("side", "lp", "htep"), coverBackSong:  folderCover("back", "lp", "htep"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "With You", url: "https://www.azlyrics.com/lyrics/linkinpark/withyou.html", coverFrontSong: folderCover("front", "lp", "htep"), coverSideSong: folderCover("side", "lp", "htep"), coverBackSong:  folderCover("back", "lp", "htep"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Points Of Authority", url: "https://www.azlyrics.com/lyrics/linkinpark/pointsofauthority.html", coverFrontSong: folderCover("front", "lp", "htep"), coverSideSong: folderCover("side", "lp", "htep"), coverBackSong:  folderCover("back", "lp", "htep"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Crawling", url: "https://www.azlyrics.com/lyrics/linkinpark/crawling.html", coverFrontSong: folderCover("front", "lp", "htep"), coverSideSong: folderCover("side", "lp", "htep"), coverBackSong:  folderCover("back", "lp", "htep"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Runaway", url: "https://www.azlyrics.com/lyrics/linkinpark/runaway.html", coverFrontSong: folderCover("front", "lp", "htep"), coverSideSong: folderCover("side", "lp", "htep"), coverBackSong:  folderCover("back", "lp", "htep"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "By Myself", url: "https://www.azlyrics.com/lyrics/linkinpark/bymyself.html", coverFrontSong: folderCover("front", "lp", "htep"), coverSideSong: folderCover("side", "lp", "htep"), coverBackSong:  folderCover("back", "lp", "htep"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "In The End", url: "https://www.azlyrics.com/lyrics/linkinpark/intheend.html", coverFrontSong: folderCover("front", "lp", "htep"), coverSideSong: folderCover("side", "lp", "htep"), coverBackSong:  folderCover("back", "lp", "htep"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "A Place For My Head", url: "https://www.azlyrics.com/lyrics/linkinpark/aplaceformyhead.html", coverFrontSong: folderCover("front", "lp", "htep"), coverSideSong: folderCover("side", "lp", "htep"), coverBackSong:  folderCover("back", "lp", "htep"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Forgotten", url: "https://www.azlyrics.com/lyrics/linkinpark/forgotten.html", coverFrontSong: folderCover("front", "lp", "htep"), coverSideSong: folderCover("side", "lp", "htep"), coverBackSong:  folderCover("back", "lp", "htep"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Cure For The Itch", url: "https://www.azlyrics.com/lyrics/linkinpark/curefortheitch.html", coverFrontSong: folderCover("front", "lp", "htep"), coverSideSong: folderCover("side", "lp", "htep"), coverBackSong:  folderCover("back", "lp", "htep"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Pushing Me Away", url: "https://www.azlyrics.com/lyrics/linkinpark/pushingmeaway.html", coverFrontSong: folderCover("front", "lp", "htep"), coverSideSong: folderCover("side", "lp", "htep"), coverBackSong:  folderCover("back", "lp", "htep"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Valentine's Day", url: "https://www.azlyrics.com/lyrics/linkinpark/valentinesday.html", coverFrontSong: folderCover("front", "lp", "mtm"), coverSideSong: folderCover("side", "lp", "mtm"), coverBackSong: folderCover("back", "lp", "mtm"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Don't Stay", url: "https://www.azlyrics.com/lyrics/linkinpark/dontstay.html", coverFrontSong: folderCover("front", "lp", "meteora"), coverSideSong: folderCover("side", "lp", "meteora"), coverBackSong: folderCover("back", "lp", "meteora"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Somewhere I Belong", url: "https://www.azlyrics.com/lyrics/linkinpark/somewhereibelong.html", coverFrontSong: folderCover("front", "lp", "meteora"), coverSideSong: folderCover("side", "lp", "meteora"), coverBackSong: folderCover("back", "lp", "meteora"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Lying From You", url: "https://www.azlyrics.com/lyrics/linkinpark/lyingfromyou.html", coverFrontSong: folderCover("front", "lp", "meteora"), coverSideSong: folderCover("side", "lp", "meteora"), coverBackSong: folderCover("back", "lp", "meteora"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Hit The Floor", url: "https://www.azlyrics.com/lyrics/linkinpark/hitthefloor.html", coverFrontSong: folderCover("front", "lp", "meteora"), coverSideSong: folderCover("side", "lp", "meteora"), coverBackSong: folderCover("back", "lp", "meteora"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Easier To Run", url: "https://www.azlyrics.com/lyrics/linkinpark/easiertorun.html", coverFrontSong: folderCover("front", "lp", "meteora"), coverSideSong: folderCover("side", "lp", "meteora"), coverBackSong: folderCover("back", "lp", "meteora"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Faint", url: "https://www.azlyrics.com/lyrics/linkinpark/faint.html", coverFrontSong: folderCover("front", "lp", "meteora"), coverSideSong: folderCover("side", "lp", "meteora"), coverBackSong: folderCover("back", "lp", "meteora"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Figure.09", url: "https://www.azlyrics.com/lyrics/linkinpark/figure09.html", coverFrontSong: folderCover("front", "lp", "meteora"), coverSideSong: folderCover("side", "lp", "meteora"), coverBackSong: folderCover("back", "lp", "meteora"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Breaking The Habit", url: "https://www.azlyrics.com/lyrics/linkinpark/breakingthehabit.html", coverFrontSong: folderCover("front", "lp", "meteora"), coverSideSong: folderCover("side", "lp", "meteora"), coverBackSong: folderCover("back", "lp", "meteora"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "From The Inside", url: "https://www.azlyrics.com/lyrics/linkinpark/fromtheinside.html", coverFrontSong: folderCover("front", "lp", "meteora"), coverSideSong: folderCover("side", "lp", "meteora"), coverBackSong: folderCover("back", "lp", "meteora"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Nobody's Listening", url: "https://genius.com/Linkin-park-nobodys-listening-lyrics", coverFrontSong: folderCover("front", "lp", "meteora"), coverSideSong: folderCover("side", "lp", "meteora"), coverBackSong: folderCover("back", "lp", "meteora"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Session", url: "http://www.metrolyrics.com/session-lyrics-linkin-park.html", coverFrontSong: folderCover("front", "lp", "meteora"), coverSideSong: folderCover("side", "lp", "meteora"), coverBackSong: folderCover("back", "lp", "meteora"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Numb", url: "https://www.azlyrics.com/lyrics/linkinpark/numb.html", coverFrontSong: folderCover("front", "lp", "meteora"), coverSideSong: folderCover("side", "lp", "meteora"), coverBackSong: folderCover("back", "lp", "meteora"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Waiting For The End", url: "https://www.azlyrics.com/lyrics/linkinpark/waitingfortheend.html", coverFrontSong: folderCover("front", "lp", "ats"), coverSideSong: folderCover("side", "lp", "ats"), coverBackSong: folderCover("back", "lp", "ats"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Blackout", url: "https://www.azlyrics.com/lyrics/linkinpark/blackout.html", coverFrontSong: folderCover("front", "lp", "ats"), coverSideSong: folderCover("side", "lp", "ats"), coverBackSong: folderCover("back", "lp", "ats"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Wretches And Kings", url: "https://www.azlyrics.com/lyrics/linkinpark/wretchesandkings.html", coverFrontSong: folderCover("front", "lp", "ats"), coverSideSong: folderCover("side", "lp", "ats"), coverBackSong: folderCover("back", "lp", "ats"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Wisdom, Justice And Love", url: "https://www.azlyrics.com/lyrics/linkinpark/wisdomjusticeandlove.html", coverFrontSong: folderCover("front", "lp", "ats"), coverSideSong: folderCover("side", "lp", "ats"), coverBackSong: folderCover("back", "lp", "ats"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Iridescent", url: "https://www.azlyrics.com/lyrics/linkinpark/iridescent.html", coverFrontSong: folderCover("front", "lp", "ats"), coverSideSong: folderCover("side", "lp", "ats"), coverBackSong: folderCover("back", "lp", "ats"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Fallout", url: "https://www.azlyrics.com/lyrics/linkinpark/fallout.html", coverFrontSong: folderCover("front", "lp", "ats"), coverSideSong: folderCover("side", "lp", "ats"), coverBackSong: folderCover("back", "lp", "ats"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Catalyst", url: "https://www.azlyrics.com/lyrics/linkinpark/thecatalyst.html", coverFrontSong: folderCover("front", "lp", "ats"), coverSideSong: folderCover("side", "lp", "ats"), coverBackSong: folderCover("back", "lp", "ats"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Burn It Down", url: "https://www.azlyrics.com/lyrics/linkinpark/burnitdown.html", coverFrontSong: folderCover("front", "lp", "lt"), coverSideSong: folderCover("side", "lp", "lt"), coverBackSong: folderCover("back", "lp", "lt"), genreMusicalBand:"metal"},
+					{band: "Fort Minor", featuringBand: "", songName: "Believe Me", url: "https://www.azlyrics.com/lyrics/fortminor/believeme.html", coverFrontSong: folderCover("front", "fm", "trt"), coverSideSong: folderCover("side", "fm", "trt"), coverBackSong: folderCover("back", "fm", "trt"), genreMusicalBand:"hipHop"},
+					{band: "Fort Minor", featuringBand: "", songName: "Where'd You Go", url: "https://www.azlyrics.com/lyrics/fortminor/wheredyougo.html", coverFrontSong: folderCover("front", "fm", "trt"), coverSideSong: folderCover("side", "fm", "trt"), coverBackSong: folderCover("back", "fm", "trt"), genreMusicalBand:"hipHop"},
+					{band: "Fort Minor", featuringBand: "", songName: "Discograph Complete", url: "http://www.taringa.net/comunidades/linkinparktaringa/7314323/Fort-Minor-Discografia-MediaFire-320-Kbps.html", coverFrontSong: folderCover("front", "fm", "trt"), coverSideSong: folderCover("side", "fm", "trt"), coverBackSong: folderCover("back", "fm", "trt"), genreMusicalBand:"hipHop"},
+					{band: "Audioslave", featuringBand: "", songName: "Like a Stone", url: "https://www.azlyrics.com/lyrics/audioslave/likeastone.html", coverFrontSong: folderCover("front", "audioslave", "audioslave"), coverSideSong: folderCover("side", "audioslave", "audioslave"), coverBackSong: folderCover("back", "audioslave", "audioslave"), genreMusicalBand:"rock"}];
 
 	$scope.learnWithImg = [{image: "http://indiehaven.com/wp-content/uploads/2014/04/shrugging-guy.jpg.jpg?w=640", name: "Shrugged"},
 						   {image: "https://carliemacullen.files.wordpress.com/2012/02/frown.jpg", name: "frowning"}];
