@@ -1,5 +1,8 @@
 .body-content {
-	background: url("http://www.shauno.ca/gallery/modern/squares-blue-black-03.jpg");
+	background: url("../data/image/background/instruments.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	margin: 40px 0px 0px 0px; 
 	padding: 25px 10px;
 }
