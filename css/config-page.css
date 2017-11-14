@@ -9,7 +9,6 @@
 .body-content, .hide-unhide, 
 .left-screen, nav {
 	display: inline-block;
-	float: left;
 }
 .center {
 	text-align: center;
@@ -47,7 +46,7 @@
 }
 .body-content h1 {
 	background: #ccc;
-	float: center;
+	/*float: center;*/
 	margin: 5px auto;
 }
 .hide {
@@ -65,7 +64,7 @@
 }
 .image-reffer {
 	display: block;
-	float: left;
+	/*float: left;*/
 	margin: 15px;
 	width: auto;
 	height: 400px;
