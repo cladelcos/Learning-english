@@ -21,15 +21,15 @@
 	width: 250px;
 	height: 330px;
 	margin: 10px;
-	padding: 5px;
-	background: #fff; 
+	padding: 5px; 
 	font-family: sans-serif;
 }
 .content-field:hover {
 	color: #f00;
 }
-.content-field h6 {
+.content-field h6 div {
 	font-size: 20px;
+	color: gold;
 }
 .cover-dvd {
 	height: 350px;
@@ -271,6 +271,12 @@ td {
 
 /* cube wrapper */
 .cube{
+  position: relative;
+  margin: 0 auto;
+  width: 200px;
+  transform-style: preserve-3d;
+}
+.cube:hover{
   position: relative;
   margin: 0 auto;
   width: 200px;
