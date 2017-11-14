@@ -5,6 +5,7 @@
 	background-attachment: fixed;
 	margin: 40px 0px 0px 0px; 
 	padding: 25px 10px;
+	z-index: 2; /*Position of div back of menubar*/
 }
 .body-content, .hide-unhide, 
 .left-screen, nav {
@@ -46,7 +47,6 @@
 }
 .body-content h1 {
 	background: #ccc;
-	/*float: center;*/
 	margin: 5px auto;
 }
 .hide {
@@ -110,6 +110,7 @@
 }
 nav {
 	position: fixed;
+	z-index: 3; /*Position of menubar about of div .body-content*/
 	padding: 5px;
 	background: #ccc;
 	box-shadow: 0px 2px 3px #333;

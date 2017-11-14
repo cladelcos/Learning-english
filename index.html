@@ -63,7 +63,6 @@
                 <div ng-repeat="x in lyric | filter: filterBand" >
                     <div class="content-field" name="{{x.genreMusicalBand}}">
                         <a href="{{x.url}}" target="_blank">
-                            <h6>
                                 <div class="wrapper">
                                     <div class="cube zoom-in">
                                         <i class="front">
@@ -84,6 +83,7 @@
                                         </i>
                                     </div>
                                 </div>
+                            <h6>
                                 <div ng-if="x.featuringBand != 0">
                                     {{x.band}} 
                                     <div class="feat">
