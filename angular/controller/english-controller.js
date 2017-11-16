@@ -28,6 +28,9 @@ english.controller("generalCtrl", function ($scope) {
 				if(album == "oml") {
 					album = "one-more-light.png";
 				}
+				if(album == "thp") {
+					album = "the-hunting-party.png";
+				}
 			}
 			if (band == "audioslave") {
 				band = "audioslave";
@@ -72,6 +75,9 @@ english.controller("generalCtrl", function ($scope) {
 				if(album == "oml") {
 					album = "one-more-light.png";
 				}
+				if(album == "thp") {
+					album = "the-hunting-party.png";
+				}
 			}
 			if (band == "audioslave") {
 				band = "audioslave";
@@ -115,6 +121,9 @@ english.controller("generalCtrl", function ($scope) {
 				}
 				if(album == "oml") {
 					album = "one-more-light.png";
+				}
+				if(album == "thp") {
+					album = "the-hunting-party.png";
 				}
 			}
 			if (band == "audioslave") {
@@ -175,6 +184,18 @@ english.controller("generalCtrl", function ($scope) {
 					{band: "Linkin Park", featuringBand: "", songName: "Fallout", url: "https://www.azlyrics.com/lyrics/linkinpark/fallout.html", coverFrontSong: folderCover("front", "lp", "ats"), coverSideSong: folderCover("side", "lp", "ats"), coverBackSong: folderCover("back", "lp", "ats"), genreMusicalBand:"metal"},
 					{band: "Linkin Park", featuringBand: "", songName: "Catalyst", url: "https://www.azlyrics.com/lyrics/linkinpark/thecatalyst.html", coverFrontSong: folderCover("front", "lp", "ats"), coverSideSong: folderCover("side", "lp", "ats"), coverBackSong: folderCover("back", "lp", "ats"), genreMusicalBand:"metal"},
 					{band: "Linkin Park", featuringBand: "", songName: "Burn It Down", url: "https://www.azlyrics.com/lyrics/linkinpark/burnitdown.html", coverFrontSong: folderCover("front", "lp", "lt"), coverSideSong: folderCover("side", "lp", "lt"), coverBackSong: folderCover("back", "lp", "lt"), genreMusicalBand:"metal"},
+					// {band: "Linkin Park", featuringBand: "", songName: "Keys To The Kingdom", url: "", coverFrontSong: folderCover("front", "lp", "thp"), coverSideSong: folderCover("side", "lp", "thp"), coverBackSong: folderCover("back", "lp", "thp"), genreMusicalBand:"metal"},
+					// {band: "Linkin Park", featuringBand: "", songName: "All For Nothing", url: "", coverFrontSong: folderCover("front", "lp", "thp"), coverSideSong: folderCover("side", "lp", "thp"), coverBackSong: folderCover("back", "lp", "thp"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Guilty All The Same", url: "https://genius.com/Linkin-park-guilty-all-the-same-lyrics", coverFrontSong: folderCover("front", "lp", "thp"), coverSideSong: folderCover("side", "lp", "thp"), coverBackSong: folderCover("back", "lp", "thp"), genreMusicalBand:"metal"},
+					// {band: "Linkin Park", featuringBand: "", songName: "The Summoning", url: "", coverFrontSong: folderCover("front", "lp", "thp"), coverSideSong: folderCover("side", "lp", "thp"), coverBackSong: folderCover("back", "lp", "thp"), genreMusicalBand:"metal"},
+					// {band: "Linkin Park", featuringBand: "", songName: "War", url: "", coverFrontSong: folderCover("front", "lp", "thp"), coverSideSong: folderCover("side", "lp", "thp"), coverBackSong: folderCover("back", "lp", "thp"), genreMusicalBand:"metal"},
+					// {band: "Linkin Park", featuringBand: "", songName: "Wastelands", url: "", coverFrontSong: folderCover("front", "lp", "thp"), coverSideSong: folderCover("side", "lp", "thp"), coverBackSong: folderCover("back", "lp", "thp"), genreMusicalBand:"metal"},
+					// {band: "Linkin Park", featuringBand: "", songName: "Until It's Gone", url: "", coverFrontSong: folderCover("front", "lp", "thp"), coverSideSong: folderCover("side", "lp", "thp"), coverBackSong: folderCover("back", "lp", "thp"), genreMusicalBand:"metal"},
+					// {band: "Linkin Park", featuringBand: "", songName: "Rebellion", url: "", coverFrontSong: folderCover("front", "lp", "thp"), coverSideSong: folderCover("side", "lp", "thp"), coverBackSong: folderCover("back", "lp", "thp"), genreMusicalBand:"metal"},
+					// {band: "Linkin Park", featuringBand: "", songName: "Mark The Graves", url: "", coverFrontSong: folderCover("front", "lp", "thp"), coverSideSong: folderCover("side", "lp", "thp"), coverBackSong: folderCover("back", "lp", "thp"), genreMusicalBand:"metal"},
+					// {band: "Linkin Park", featuringBand: "", songName: "Drawbar", url: "", coverFrontSong: folderCover("front", "lp", "thp"), coverSideSong: folderCover("side", "lp", "thp"), coverBackSong: folderCover("back", "lp", "thp"), genreMusicalBand:"metal"},
+					{band: "Linkin Park", featuringBand: "", songName: "Final Masquerade", url: "https://www.azlyrics.com/lyrics/linkinpark/finalmasquerade.html", coverFrontSong: folderCover("front", "lp", "thp"), coverSideSong: folderCover("side", "lp", "thp"), coverBackSong: folderCover("back", "lp", "thp"), genreMusicalBand:"metal"},
+					// {band: "Linkin Park", featuringBand: "", songName: "A Line In The Sand", url: "", coverFrontSong: folderCover("front", "lp", "thp"), coverSideSong: folderCover("side", "lp", "thp"), coverBackSong: folderCover("back", "lp", "thp"), genreMusicalBand:"metal"},
 					{band: "Linkin Park", featuringBand: "", songName: "Nobody Can Save Me ", url: "https://www.azlyrics.com/lyrics/linkinpark/nobodycansaveme.html", coverFrontSong: folderCover("front", "lp", "oml"), coverSideSong: folderCover("side", "lp", "oml"), coverBackSong: folderCover("back", "lp", "oml"), genreMusicalBand:"metal"},
 					{band: "Linkin Park", featuringBand: "", songName: "Good Goodbye", url: "https://genius.com/Linkin-park-good-goodbye-lyrics", coverFrontSong: folderCover("front", "lp", "oml"), coverSideSong: folderCover("side", "lp", "oml"), coverBackSong: folderCover("back", "lp", "oml"), genreMusicalBand:"metal"},
 					{band: "Linkin Park", featuringBand: "", songName: "Talking To Myself", url: "https://genius.com/Linkin-park-talking-to-myself-lyrics", coverFrontSong: folderCover("front", "lp", "oml"), coverSideSong: folderCover("side", "lp", "oml"), coverBackSong: folderCover("back", "lp", "oml"), genreMusicalBand:"metal"},
