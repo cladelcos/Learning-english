@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>Lyrics</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/config-page.css">
+    <link rel="stylesheet" media="screen and  (max-width: 650px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 650px) and (max-width: 2499px)" href="css/config-page.css">
     <link rel="stylesheet" href="css/animation.css">
 </head>
 <body>
@@ -42,7 +43,7 @@
                 </li>
             </ul>
         </nav>
-        <div class="left-screen unhide">
+        <div class="left-screen hide">
             <h4>Filter: <input type="text" ng-model="filterBand"/></h4>
             <form>
                 <h4>Genre Musical</h4>
@@ -53,16 +54,17 @@
                 </ul>
             </form>
         </div>
-        <div class="hide-unhide position-unhide">
+        <div class="hide-unhide position-hide">
             <a onclick="alter()"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-right-128.png" alt="right-arrow"></a>
         </div>
-        <div class="body-content normal center">
+        <div class="body-content left max">
             <h1>Lyrics To Traine and Learn The English Languange</h1>
 
             <div ng-controller="generalCtrl">
                 <div ng-repeat="x in lyric | filter: filterBand" >
                     <div class="content-field" name="{{x.genreMusicalBand}}">
                         <a href="{{x.url}}" target="_blank">
+                            <h6>
                                 <div class="wrapper">
                                     <div class="cube zoom-in">
                                         <i class="front">
@@ -83,7 +85,6 @@
                                         </i>
                                     </div>
                                 </div>
-                            <h6>
                                 <div ng-if="x.featuringBand != 0">
                                     {{x.band}} 
                                     <div class="feat">

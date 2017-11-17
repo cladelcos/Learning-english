@@ -4,6 +4,8 @@ function alter() {
 		$(".left-screen").addClass("unhide");
 		$(".body-content").removeClass("max");
 		$(".body-content").addClass("normal");
+		$(".body-content").removeClass("left-align");
+		$(".body-content").addClass("center-align");
 		$(".hide-unhide").removeClass("position-hide");
 		$(".hide-unhide").addClass("position-unhide");
 	}
@@ -12,6 +14,8 @@ function alter() {
 		$(".left-screen").addClass("hide");
 		$(".body-content").removeClass("normal");
 		$(".body-content").addClass("max");
+		$(".body-content").removeClass("center-align");
+		$(".body-content").addClass("left-align");
 		$(".hide-unhide").removeClass("position-unhide");
 		$(".hide-unhide").addClass("position-hide");
 	}

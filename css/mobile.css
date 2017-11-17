@@ -1,4 +1,4 @@
-@media only screen and (min-width: 650px) and (max-width: 2500px) {
+@media only screen and (max-width: 650px) {
 	.body-content {
 		background: url("../data/image/background/instruments.jpg");
 		background-size: 100%;
@@ -29,7 +29,7 @@
 		color: #f00;
 	}
 	.content-field h6 div{
-		font-size: 20px;
+		font-size: 15px;
 		margin-left: 20px;
 		color: gold;
 	}
@@ -124,7 +124,7 @@
 		list-style:none;
 		position:relative;
 		float:left;
-		margin: 0px 130px;
+		margin: 0px 80px;
 		padding:0;
 	}
 
@@ -133,10 +133,10 @@
 		color:#000;
 		text-decoration:none;
 		font-weight: 700;
-		font-size: 17px;
+		font-size: 13px;
 		font-family: sans-serif;
 		line-height: 32px;
-		padding: 0px 15px;
+		padding: 0px 10px;
 	}
 	nav ul a:hover, 
 	nav ul ul a:hover {
@@ -372,7 +372,7 @@
 	.cube:hover i{
 	  top:50px;
 	}
-	
+
 	/*Positions Body*/
 	.left-align {
 		margin: 0px;
