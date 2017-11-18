@@ -1,7 +1,6 @@
 @media only screen and (min-width: 650px) and (max-width: 2500px) {
 	.body-content {
-		background: url("../data/image/background/instruments.jpg");
-		background-size: 100%;
+		background: url("../data/image/background/piano.jpg");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		margin: 40px 0px 0px 0px; 
@@ -375,9 +374,24 @@
 	
 	/*Positions Body*/
 	.left-align {
-		margin: 0px;
+		margin-top: 40px;
 	}
 	.center-align {
-		margin: 100px;
+		margin-top: 40px;
+		margin-left: 250px;
+	}
+}
+
+/* Exceptions of size Background */
+
+@media only screen and (min-width: 500px) and (max-width: 1250px) {
+	.body-content {
+		background-size: 100% 100%;
+	}
+}
+
+@media only screen and (min-width: 1250px) and (max-width: 2500px) {
+	.body-content {
+		background-size: 100%;
 	}
 }
