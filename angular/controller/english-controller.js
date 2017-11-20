@@ -233,7 +233,7 @@ english.controller("generalCtrl", function ($scope) {
 					{url: "https://previews.123rf.com/images/esancai/esancai1408/esancai140800082/31038926-25-currency-symbols-countries-and-their-name-around-the-world-Stock-Vector.jpg", nameOne: "Currency Symbols", nameTwo: "", nameThree: "", imgLearn: "https://previews.123rf.com/images/esancai/esancai1408/esancai140800082/31038926-25-currency-symbols-countries-and-their-name-around-the-world-Stock-Vector.jpg", category: "symbol"},
 					{url: "http://blog.oxforddictionaries.com/2015/03/signs-and-symbols-the-names-of-punctuation-marks/", nameOne: "Signs and Symbols Names", nameTwo: "", nameThree: "", imgLearn: "http://www.narayanpurpolice.in/wp-content/uploads/2017/05/noImage.png", category: "symbol"},
 					{url: "https://dryuc24b85zbr.cloudfront.net/tes/resources/6449409/image?width=500&height=500&version=1415352217000", nameOne: "", nameTwo: "Math Symbols", nameThree: "", imgLearn: "https://dryuc24b85zbr.cloudfront.net/tes/resources/6449409/image?width=500&height=500&version=1415352217000", category: "symbol"},
-					{url: "", nameOne: "", nameTwo: "", nameThree: "", imgLearn: "", category: ""},
+					{url: "http://www.english-at-home.com/pronunciation/silent-sounds/", nameOne: "Silent Sounds", nameTwo: "", nameThree: "", imgLearn: "http://proprivatus.com/wp-content/uploads/2014/01/shh-2.jpg", category: ""},
 					{url: "", nameOne: "", nameTwo: "", nameThree: "", imgLearn: "", category: ""},
 					{url: "", nameOne: "", nameTwo: "", nameThree: "", imgLearn: "", category: ""},
 					{url: "", nameOne: "", nameTwo: "", nameThree: "", imgLearn: "", category: ""},
